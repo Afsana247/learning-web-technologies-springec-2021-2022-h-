@@ -12,15 +12,15 @@
 		<td>X Company</b>
 		<table align="Right">
 			<tr>
-			<td><ul><li><a href="">Home</a>|</li></ul></td>
-					<td><ul><li><a href="">Login</a>|</li></ul></td>
-						<td><ul><li><a href="">Registration</a></li></ul></td>
+			<td><a href="publichome.php">Home</a>|</td>
+					<td><a href="login.php">Login</a>|</td>
+						<td><a href="reg.php">Registration</a></td>
 			
 			</tr></table>
 		</td>
 	</tr>
 
-<	
+	
 	<tr height="200px">
 
 			<td><b>Welcome to xCompany</b></td>

@@ -2,7 +2,7 @@
 <html>
 <head>
 
-	<title>LOGIN</title>
+	<title>FORGOT PASSWORD</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -12,37 +12,30 @@
 		<td>X Company</b>
 		<table align="Right">
 			<tr>
-			<td><ul><li><a href="">Home</a>|</li></ul></td>
-					<td><ul><li><a href="">Login</a>|</li></ul></td>
-						<td><ul><li><a href="">Registration</a></li></ul></td>
+			<td><a href="publichome.php">Home</a>|</td>
+					<td><a href="login.php">Login</a>|</td>
+					<td><a href="reg.php">Registration</a></td>
 			
 			</tr></table>
 		</td>
 	</tr>
 
-<	
+
 	<tr height="200px">
 
 			<td>
 				<fieldset>
-					<legend><b>LOGIN</b></legend>
+					<legend><b>FORGOT PASSWORD</b></legend>
 					<table>
 						<tr>
-							<td>User Name:</td>
-							<td><input type="name" name="name"value=""></td>
-						</tr>
-						<tr>
-							<td>Password:</td>
-							<td><input type="password" name="password"value=""></td>
+							<td><b>Enter Email:</b></td>
+							<td><input type="mail" name="mail"value=""></td>
 						</tr>
 					</table>
 					<hr>
-			
-					<table><tr><td><input type="checkbox" name=""value="">Remember Me<br></td></tr></table>
 
 					<table>
 						<tr><td><input type="submit" name="submit"value="Submit"></td>
-							<td><a href="">Forgate Password?</a></td>
 					</tr></table>
 				</fieldset>
 

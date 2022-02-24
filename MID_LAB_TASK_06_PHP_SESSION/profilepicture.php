@@ -1,3 +1,9 @@
+<?php 
+	session_start();
+	if(isset($_SESSION['status'])){
+
+
+?>
 
 <html>
 <head>
@@ -12,8 +18,8 @@
 		<td>X Company</b>
 		<table align="Right">
 			<tr><td>Logged in as</td>
-			<td><ul><li><a href="">Bob</a>|</li></ul></td>
-			<td><ul><li><a href="">Logout</a>|</li></ul></td>
+			<td><a href="bob.php">Bob</a>|</td>
+			<td><a href="logout.php">Logout</a>|</td>
 			
 			</tr></table>
 		</td>
@@ -24,12 +30,12 @@
 			<td>
 				<table border="" width="100%">
 					<tr>
-						<td>	<b>Account</b><hr><p><ul><li><a href="">Dashboard</a></li>
-				<li><a href="">View Profile</a></li>
-				<li><a href="">Edit Profile</a></li>
-				<li><a href="">Change Profilr</a></li>
-				<li><a href="">Change Password</a></li>
-				<li><a href="">Logout</a></li></ul></p></td>
+						<td>	<b>Account</b><hr><p><ul><li><a href="loggedindas.php">Dashboard</a></li>
+				<li><a href="viewprofile.php">View Profile</a></li>
+				<li><a href="editprofile.php">Edit Profile</a></li>
+				<li><a href="profilepicture.php">Change Profilr</a></li>
+				<li><a href="changepassword.php">Change Password</a></li>
+				<li><a href="logout.php">Logout</a></li></ul></p></td>
 
 
      <td>
@@ -56,22 +62,11 @@
      				</td>
      			</tr>
      		</table>
-     	
-     		
-     		
-     	
-     		
+  
      	</fieldset>
 
-
-
-
-
-
-
-
-			       </td>
-		</tr>
+	 </td>
+	</tr>
 </table>
 
 </td>
@@ -87,3 +82,7 @@
 
 </body>
 </html>
+<?php 
+}else{
+	header('location:login.php');
+}
